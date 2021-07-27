@@ -1,24 +1,5 @@
 # 1979. 어디에 단어가 들어갈 수 있을까 D2
 
-# Box에 담기 문제 풀기
-# Master
-#  조영주
-# 3,312
-# 참여자
-# 3,056
-# 제출
-# 2,351
-# 정답
-# 76.93
-# 정답률
-# 50
-# Point
-#  14
-# Problem제출이력정답
-# 시간 : 10개 테스트케이스를 합쳐서 C++의 경우 30초 / Java의 경우 30초 / Python의 경우 30초
-# 메모리 : 힙, 정적 메모리 합쳐서 256MB 이내, 스택 메모리 1MB 이내
-# ※ SW Expert 아카데미의 문제를 무단 복제하는 것을 금지합니다.
-
 # N X N 크기의 단어 퍼즐을 만들려고 한다. 입력으로 단어 퍼즐의 모양이 주어진다.
 
 # 주어진 퍼즐 모양에서 특정 길이 K를 갖는 단어가 들어갈 수 있는 자리의 수를 출력하는 프로그램을 작성하라.
@@ -62,27 +43,23 @@ T = int(input())
 
 for i in range(1, T+1):
     N, K = map(int, input().split())
-
-    puzzle = [list(map(int, input().split()))for _ in range(N)]
-
     tc = 0
+    puzzle = [list(map(int, input().split())) for _ in range(N)]
     for x in range(N):
         cnt = 0
         for y in range(N):
             if puzzle[x][y] == 1:
                 cnt += 1
-            elif puzzle[x][y] == 0 or y == N-1:
+            if puzzle[x][y] == 0 or y == N-1:
+                if cnt == K:
+                    tc += 1
+                cnt = 0
+        for y in range(N):
+            if puzzle[y][x] == 1:
+                cnt += 1
+            if puzzle[y][x] == 0 or y == N-1:
                 if cnt == K:
                     tc += 1
                 cnt = 0
 
-    for y in range(N):
-        cnt = 0
-        for x in range(N):
-            if puzzle[y][x] == 1:
-                cnt += 1
-            elif puzzle[y][x] == 0 or x == N-1:
-                if cnt == K:
-                    tc += 1
-                cnt = 0
     print("#{} {}".format(i, tc))
