@@ -38,19 +38,20 @@ T = int(input())
 
 for i in range(1, T+1):
     N, M = map(int, input().split())
-    A = list(map(int, input().split()))
-    B = list(map(int, input().split()))
+    A = list(map(int, input().split()))     # N과 M중 길이가 더 짧은 값의 리스트
+    B = list(map(int, input().split()))     # N과 M중 길이가 더 긴 값의 리스트
     result = []
     if N < M:
         for a in range(M-N+1):
+            # N이 M보다 작다면 이중 for문으로 M-N+1과 N만큼 돌며 값을 곱셈.
             n = 0
-            for b in range(N):
+            for b in range(N):          # 미리 생성 해놓은 변수에 값을 더하고 빈 리스트에 추가.
                 n += A[b] * B[a+b]
             result.append(n)
-    elif N > M:
+    elif N > M:                     # 위와 같은 방식으로 N이 M보다 클때의 경우
         for a in range(N-M+1):
             n = 0
             for b in range(M):
-                n += A[b] * B[a+b]
+                n += B[b] * A[a+b]
             result.append(n)
-    print(f'#{i}', max(result))
+    print(f'#{i}', max(result))     # result값에서 제일 큰 값을 출력
