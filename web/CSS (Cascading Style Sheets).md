@@ -8,9 +8,7 @@
 
 ### CSS 구문
 
-<img src="/Users/jin/Library/Application Support/typora-user-images/image-20210802111154545.png" alt="image-20210802111154545" style="zoom: 25%;" />
-
-
+<img src="CSS (Cascading Style Sheets).assets/Screen Shot 2021-08-02 at 11.11.49 AM.png" alt="Screen Shot 2021-08-02 at 11.11.49 AM" style="zoom: 25%;" />
 
 ### CSS 정의 방법
 
@@ -116,8 +114,6 @@
 ### Box Model
 
 ![image-20210802150309551](CSS (Cascading Style Sheets).assets/image-20210802150309551.png)
-
-
 
 
 
