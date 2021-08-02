@@ -8,7 +8,7 @@
 
 ### CSS 구문
 
-![Screen Shot 2021-08-02 at 11.11.49 AM](Screen Shot 2021-08-02 at 11.11.49 AM.png)
+![c](CSS (Cascading Style Sheets).assets/c.png)
 
 ### CSS 정의 방법
 
@@ -113,12 +113,10 @@
 
 ### Box Model
 
-![image-20210802150309551](image-20210802150309551.png)
-
 * contents- box : box-sizing의 기본 값으로 설정이 되어있음
 * border - box : 보통 처음에 스타일전체의 box-sizing을 boder-box로 설정하고 시작하는게 편함.
 
-
+![a](CSS (Cascading Style Sheets).assets/a.png)
 
 #### 마진 상쇄
 
@@ -153,9 +151,9 @@ block A의 top 과 block B의 bottom에 적용된 각각의  margin이 둘 중�
 
     <strong>속성에 따른 수평 정렬</strong>
 
-    ![Screen Shot 2021-08-02 at 3.36.29 PM](Screen Shot 2021-08-02 at 3.36.29 PM.png)
-
-* display: <strong>inline-block</strong>
+    ![b](CSS (Cascading Style Sheets).assets/b-7912080.png)
+    
+    display: <strong>inline-block</strong>
 
   * block과 inline레벨 요소의 특징을 모두 갖는다
   * inline처럼 한 줄에 표시 가능
