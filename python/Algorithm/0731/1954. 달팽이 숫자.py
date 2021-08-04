@@ -49,6 +49,6 @@ for i in range(1, T+1):
             cube[x][y] = num
             num += 1
         rota *= -1
-
+    print(f'#{i}')
     for j in range(len(cube)):
         print(*cube[j])
