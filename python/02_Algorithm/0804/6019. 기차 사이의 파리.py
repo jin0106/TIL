@@ -33,4 +33,7 @@
 
 
 t = int(input())
-D, A, B, F = map(int, input().split())
+for i in range(1, t+1):
+    D, A, B, F = map(int, input().split())
+    fmd = D/(A+B)*F
+    print(f"#{i}", "%.10f" % fmd)
