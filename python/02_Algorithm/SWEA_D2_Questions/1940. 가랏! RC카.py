@@ -61,7 +61,7 @@ for t in range(1, T+1):
             if speed - commands[1] < 0:  # speed가 음수가 되지 않도록 조건문 설정
                 speed = 0
             else:
-                speed -= commands[-1]
+                speed -= commands[1]
                 result += speed
         else:
             result += speed
