@@ -7,18 +7,18 @@
 ## 1. APS
 
 1. [정렬(Sort)](https://github.com/jin0106/TIL/blob/main/APS (algorithm problem solving/01. 정렬(Sort).md)
-2. [스택(Stack)](https://github.com/jin0106/TIL/blob/main/APS(algorithmproblemsolving/02.Stack.md)
+2. [스택(Stack)](https://github.com/jin0106/TIL/blob/main/APS%20(algorithm%20problem%20solving)/02.%20Stack.md)
    
-   1. [Stack2 - Backtracking, 문자열 수식 계산법 ](https://github.com/jin0106/TIL/blob/main/APS (algorithm problem solving/03. Stack 2 (Backtracking).md)
-3. [큐 (Queue)](https://github.com/jin0106/TIL/blob/main/APS (algorithm problem solving/04. Queue.md)
+   1. [Stack2 - Backtracking, 문자열 수식 계산법 ](https://github.com/jin0106/TIL/blob/main/APS (algorithm problem solving)/03. Stack 2 (Backtracking).md)
+3. [큐 (Queue)](https://github.com/jin0106/TIL/blob/main/APS%20(algorithm%20problem%20solving)/04.%20Queue.md)
 
-   4. [Queue 2 - BFS](https://github.com/jin0106/TIL/blob/main/APS (algorithm problem solving/05. Queue 2 (BFS).md)
+   4. [Queue 2 - BFS](https://github.com/jin0106/TIL/blob/main/APS%20(algorithm%20problem%20solving)/05.%20Queue%202%20(BFS).md)
 
    
 
 ## 2. JavaScript
 
-1. [자료형](https://github.com/jin0106/TIL/blob/main/JavaScript/01. 자료형.md)
+1. [자료형](https://github.com/jin0106/TIL/blob/main/JavaScript/01.%20자료형.md)
 2. [연산자](https://github.com/jin0106/TIL/blob/main/JavaScript/02. 연산자.md)
    1. [연산자2](https://github.com/jin0106/TIL/blob/main/JavaScript/03. 연산자2.md)
 3. [반복문](https://github.com/jin0106/TIL/blob/main/JavaScript/04.%20while%2C%20for%2C%20switch.md)
