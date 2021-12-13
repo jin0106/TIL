@@ -23,11 +23,11 @@
    1. [연산자2](https://github.com/jin0106/TIL/blob/main/JavaScript/03.%20연산자2.md)
 3. [반복문](https://github.com/jin0106/TIL/blob/main/JavaScript/04.%20while%2C%20for%2C%20switch.md)
 4. [함수](https://github.com/jin0106/TIL/blob/main/JavaScript/05.%20함수(function).md)
-   1. [함수표현식, 콜백함수](https://github.com/jin0106/TIL/blob/main/JavaScript/06.%20함수표현식, 콜백함수.md)
-   2. [화살표 함수](https://github.com/jin0106/TIL/blob/main/JavaScript/07.%20화살표 함수.md)
-   3. [new연산자와 생성자 함수](https://github.com/jin0106/TIL/blob/main/JavaScript/10.%20new연산자와 생성자 함수.md)
+   1. [함수표현식, 콜백함수](https://github.com/jin0106/TIL/blob/main/JavaScript/06.%20함수표현식%2C%20콜백함수.md)
+   2. [화살표 함수](https://github.com/jin0106/TIL/blob/main/JavaScript/07.%20화살표%20함수.md)
+   3. [new연산자와 생성자 함수](https://github.com/jin0106/TIL/blob/main/JavaScript/10.%20new연산자와%20생성자%20함수.md)
 5. [객체](https://github.com/jin0106/TIL/blob/main/JavaScript/08.%20객체.md)
-6. [가비지 컬렉션](https://github.com/jin0106/TIL/blob/main/JavaScript/09.%20가비지 컬렉션.md)
+6. [가비지 컬렉션](https://github.com/jin0106/TIL/blob/main/JavaScript/09.%20가비지%20컬렉션.md)
 
 
 
