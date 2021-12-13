@@ -6,10 +6,10 @@
 
 ## 1. APS
 
-1. [정렬(Sort)](https://github.com/jin0106/TIL/blob/main/APS (algorithm problem solving/01. 정렬(Sort).md)
+1. [정렬(Sort)](https://github.com/jin0106/TIL/blob/main/APS%20(algorithm%20problem%20solving)/01.%20정렬(Sort).md)
 2. [스택(Stack)](https://github.com/jin0106/TIL/blob/main/APS%20(algorithm%20problem%20solving)/02.%20Stack.md)
    
-   1. [Stack2 - Backtracking, 문자열 수식 계산법 ](https://github.com/jin0106/TIL/blob/main/APS (algorithm problem solving)/03. Stack 2 (Backtracking).md)
+   1. [Stack2 - Backtracking, 문자열 수식 계산법 ](https://github.com/jin0106/TIL/blob/main/APS%20(algorithm%20problem%20solving)/03.%20Stack%202%20(Backtracking).md)
 3. [큐 (Queue)](https://github.com/jin0106/TIL/blob/main/APS%20(algorithm%20problem%20solving)/04.%20Queue.md)
 
    4. [Queue 2 - BFS](https://github.com/jin0106/TIL/blob/main/APS%20(algorithm%20problem%20solving)/05.%20Queue%202%20(BFS).md)
